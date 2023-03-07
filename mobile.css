@@ -23,7 +23,7 @@ body #projects{
 
 @media screen and (max-width: 630px){
     #showcase #chaves {
-        width: 200px;
+        width: 150px;
     }
 
     body #about-container p {
@@ -54,5 +54,23 @@ body #projects{
     body .contact-container a{
         margin: 0px 30px; 
     }
+}
+
+@media screen and (max-width: 500px){
+    body #showcase-container h2 {
+        font-size: 1.3rem;
+        width: 175px;
+    }
+
+     #showcase #chaves {
+        width: 120px;
+    }
+
+    #projects #projects-container > div{
+        width: 100px;
+        height: 100px;
+    }
+
+
 }
 

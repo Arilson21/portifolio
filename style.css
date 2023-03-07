@@ -126,7 +126,7 @@ a {
 
 
 #chaves {
-    width: 600px;
+    width: 400px;
 }
 
 
@@ -200,7 +200,7 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    justify-items: center;
+    justify-items: center; 
 }
 
 #projects-container div{
@@ -270,8 +270,9 @@ a {
         font-size: 2.5rem;
     }
 
+
     #chaves {
-        width: 500px;
+        width: 300px;
     }
 
     #about-container img{
@@ -289,7 +290,7 @@ a {
     }
 
     #chaves {
-        width: 400px;
+        width: 200px;
     }
 
     #about-container img{
@@ -332,7 +333,7 @@ a {
     }
 
     #chaves {
-        width: 300px;
+        width: 200px;
     }
 
     #about-container img{
