@@ -17,6 +17,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 body #projects{
     height: 400px;   
 }
@@ -38,8 +39,6 @@ body #projects{
 
     #projects #projects-container {
         margin-top: 10px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
     }
 
     #projects #projects-container div {
@@ -66,9 +65,31 @@ body #projects{
         width: 120px;
     }
 
+    body #about-container p {
+        font-size: 0.8em;
+        width: 300px;
+    }
+
     #projects #projects-container > div{
         width: 100px;
         height: 100px;
+    }
+
+    body #projects{
+        height: auto;
+    }
+
+    #projects #projects-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        align-content: space-between
+        ;
+
     }
 
 
