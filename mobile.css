@@ -1,0 +1,58 @@
+#navbar-itens li a {
+    font-size: 0.8em;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+#about .headline{
+    padding: 0;
+}
+
+#skills #skills-container{
+    row-gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+body #projects{
+    height: 400px;   
+}
+
+@media screen and (max-width: 630px){
+    #showcase #chaves {
+        width: 200px;
+    }
+
+    body #about-container p {
+        
+        width: 400px;
+    }
+
+    body #projects{
+        height: 300px; 
+        
+    }
+
+    #projects #projects-container {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #projects #projects-container div {
+        width: 110px;
+        height: 110px;
+    }
+
+    body .contact-container img{
+        width: 30px;
+    }
+
+    body .contact-container a{
+        margin: 0px 30px; 
+    }
+}
+
